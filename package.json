@@ -1,0 +1,25 @@
+{
+  "name": "ai-podcast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "do:frontend": "export ENV_NAME=.env.frontend && node index.js",
+    "gen-audio:frontend": "export ENV_NAME=.env.frontend && export CAN_GEN_AUDIO=true && node index.js",
+    "upload:frontend": "export ENV_NAME=.env.frontend && export CAN_UPLOAD=true && node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "form-data": "^4.0.2",
+    "fs": "^0.0.1-security",
+    "mime-types": "^3.0.1",
+    "moment": "^2.30.1",
+    "openai": "^5.1.0",
+    "path": "^0.12.7",
+    "process": "^0.11.10",
+    "qs": "^6.14.0"
+  }
+}
