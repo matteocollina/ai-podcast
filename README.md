@@ -24,14 +24,6 @@ You choose the news sources. The system handles the rest.
 
 ## 📦 Example `package.json` Scripts
 
-"name": "ai-podcast"  
-"version": "1.0.0"  
-"main": "index.js"  
-"scripts":  
-  "do:frontend": "export ENV_NAME=.env.frontend && node index.js"  
-  "gen-audio:frontend": "export ENV_NAME=.env.frontend && export CAN_GEN_AUDIO=true && node index.js"  
-  "upload:frontend": "export ENV_NAME=.env.frontend && export CAN_UPLOAD=true && node index.js"  
-
 - `do:frontend` – Generates episode text using OpenAI  
 - `gen-audio:frontend` – Generates audio using ElevenLabs  
 - `upload:frontend` – Uploads the episode to Buzzsprout  
@@ -72,7 +64,7 @@ ISC License
 
 ## 👤 Author
 
-*Matteo Collina* – feel free to replace this section with credits or contact information.
+*Matteo Collina* – collinamatteo@gmail.com
 
 ---
 
