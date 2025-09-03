@@ -4,6 +4,9 @@
 
 You choose the news sources. The system handles the rest.
 
+![AI-PODCAST](https://github.com/matteocollina/ai-podcast/blob/main/documentation.png?raw=true)
+
+
 ---
 
 ## 🚀 Features
